@@ -1,3 +1,4 @@
+# different variables
 my_var = "hello world"
 my_varStr = "hello bitches!"
 my_varNum = 5
@@ -7,6 +8,7 @@ my_varList2 = "12", "13", "16"
 my_varList3 = "12", 6, ["one", "two"]
 print(my_varList3)
 del my_varList3
+
 # print(my_varList3) commented out to avoid crashing but explains deletion of variables.
 my_varInput = input("hello bitches! Enter something in the bucket: ")
 result = type(my_var) == "number"
