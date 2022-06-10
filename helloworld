@@ -5,11 +5,16 @@ my_varList = [9, 25, 45]
 my_varList1 = ["12", "13", "16"]
 my_varList2 = "12", "13", "16"
 my_varList3 = "12", 6, ["one", "two"]
-
+print(my_varList3)
+del my_varList3
+# print(my_varList3) commented out to avoid crashing but explains deletion of variables.
 my_varInput = input("hello bitches! Enter something in the bucket: ")
 result = type(my_var) == "number"
 print(result)
 print(my_var)
+print(f"my_var : {my_var}")
+print("my_var : ", my_var)
+print("my_var : {1}", my_var)
 print(type(my_varStr))
 print(type(my_varNum))
 print(type(my_var))
